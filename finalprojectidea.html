@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="css/finalproject.css">
+
+
+<head>
+</head>
+<body>
+<h1>Final Project</h1>
+<div class="image"></div>
+<div class="item">
+I’ve always loved the outdoors and it’s been an escape for me. Unfortunately our ecosystem is dying and there are many foundations doing their best to try and save it. For my project I would like to demonstrate the importance of the outdoors and the foundations that support them.	
+</div>
+<div class="item2">
+My plan for this project is to create an interactive journey into a forest. Different aspects of the forest will be able to be clicked and be educational. Some of these clickables will be links to various youtube videos from these foundations to further infrom the user. 
+<img src="https://codemyui.com/wp-content/uploads/2018/07/Play-Icon-to-Video-Animation-on-Click.gif">
+</div>
+<div class="item1">
+Another idea I had was to use Google Earth for users to explore the worlds forests.
+<br>
+<img src="http://www.loggingfocus.org/wp-content/uploads/2013/08/RC-Headwaters-Forest-relation-to-WHA.jpg">
+</div>
+
+<div class="container">
+I wanted to create the atmosphere using a illustrative style similar to these.
+
+<img src="https://c4.wallpaperflare.com/wallpaper/349/778/544/firewatch-video-games-landscape-wallpaper-preview.jpg"  />
+</div>
+
+<div class="container2">
+<img src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/df2e8787873579.5dc50bca0bb8f.jpg" /></div>
+
+
+
+<div class="item5">I hope to use a hover effect that generates noises over different divs in the website. The noises would be various animals and eco systems within the forest.</div>
+
+<div class="jquery">
+Possible Jquery coding:
+<br>
+Youtube video: 
+<br>
+$('.ytLink').on('click',function(e){
+    $('#ytVids')[0].src = $(this).attr('href') + '&autoplay=1';
+    e.preventDefault();
+});
+<br>
+<br>
+Hover and add sound:
+<br> 
+var audio = $("#mySoundClip")[0];
+$("nav a").mouseenter(function() {
+  audio.play();
+});
+
+</div>
+
+<div class="item6">
+Some references/inspirations for this project are:
+<br>
+<a href="https://www.greenpeace.org/canada/en/
+">Greenpeace</a>
+<br>
+<a href="https://rainforestfoundation.org/
+">Rainforest Foundation</a>
+<br>
+<a href="https://earth.google.com/">Google Earth</a>
+<br>
+<a href="http://www.visithumboldt.com/">Visit Humboldt</a>
+<br>
+<a href="http://lostcities.org/">Lost Cities</a>
+</div>
+
+
+</body>
+</html>

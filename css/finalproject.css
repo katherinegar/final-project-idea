@@ -1,0 +1,165 @@
+body{
+	background-color:#3B4B29;
+}
+
+h1{
+	font-family: Messapia;
+	font-style: bold;
+	color: white;
+	right: 330px;
+	top: 120px;
+	font-size: 50px;
+	position: absolute;
+}
+
+.item{
+font-family: Porpora;
+font-size: 40px;
+color:#F1F48F;
+padding: 4px;
+position: absolute;
+top: 230px;
+right: 90px;
+width: 650px;
+  overflow-y: scroll;
+
+}
+
+
+
+
+
+.item2{
+font-family: Porpora;
+font-size: 40px;
+color:#F1F48F;
+padding: 4px;
+position: absolute;
+top: 800px;
+left: 90px;
+width: 650px;
+}
+
+.item2 img{
+	width: 500px;
+	height: 300px;
+	position: absolute;
+	top: 20px;
+	right: -600px;
+}
+
+.image {
+    background-image: url(file:///Users/katherinegarnett/Documents/GitHub/final%20project%20idea/fire.png);
+  background-size: cover;
+  height: 400px;
+  position: absolute;
+  top: 180px;
+  left: 200px;
+  width: 315px;
+}​
+
+.item4{
+font-family: Porpora;
+font-size: 40px;
+color:#F1F48F;
+padding: 4px;
+position: absolute;
+top: 1700px;
+left: 90px;
+width: 650px;
+}
+
+
+.container {
+ font-family: Porpora;
+font-size: 40px;
+color:#F1F48F;
+padding: 4px;
+position: absolute;
+top: 1700px;
+left: 90px;
+width: 650px;
+}
+
+.container img{
+	width: 350px;
+	height: 250px;
+	position: absolute;
+	bottom: -150px;
+    right: -600px;
+}
+
+.container2 {
+    width: 200px;
+    height: 120px;
+}
+
+.container2 img{
+	width: 350px;
+	height: 250px;
+	position: absolute;
+	top: 1600px;
+    right: 250px;
+}
+
+
+
+
+.item5{
+font-family: Porpora;
+font-size: 40px;
+color:#F1F48F;
+padding: 4px;
+position: absolute;
+top: 2100px;
+right: 90px;
+width: 650px;
+}
+
+.item6{
+font-family: Porpora;
+font-size: 40px;
+color:#F1F48F;
+padding: 4px;
+position: absolute;
+top: 2500px;
+left: 90px;
+width: 650px;
+}
+
+.item1{
+font-family: Porpora;
+font-size: 40px;
+color:#F1F48F;
+padding: 4px;
+position: absolute;
+top: 1350px;
+right: 90px;
+width: 650px;
+}
+
+.item1 img{
+	width: 500px;
+	height: 350px;
+	position: absolute;
+	left: -600px;
+	top: -100px;
+}
+
+.jquery{
+font-family: Porpora;
+font-size: 20px;
+color: white;
+padding: 4px;
+position: absolute;
+top: 2500px;
+right: 90px;
+width: 550px;
+}
+
+a{
+	color: #F1F48F;
+}
+a:hover{
+	color: white;
+}
